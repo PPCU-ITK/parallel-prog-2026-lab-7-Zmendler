@@ -1,0 +1,33 @@
+CPU:
+Grid Size: 200x100
+Name                               Count        Time      GB/s
+Boundary Conditions                 2000     0.007s      9.91
+Interior Update                     2000     0.189s     46.79
+Copy Values                         2000     0.031s     81.83
+Calculate Kinetic Energy            2000     0.024s     40.53
+Total execution time: 0.25 seconds
+
+Grid Size: 400x200
+Name                               Count        Time      GB/s
+Boundary Conditions                 2000     0.008s     16.87
+Interior Update                     2000     0.640s     55.35
+Copy Values                         2000     0.117s     87.44
+Calculate Kinetic Energy            2000     0.079s     48.50
+Total execution time: 0.85 seconds
+
+Grid Size: 600x300
+Name                               Count        Time      GB/s
+Boundary Conditions                 2000     0.010s     20.53
+Interior Update                     2000     1.369s     58.24
+Copy Values                         2000     0.231s     99.80
+Calculate Kinetic Energy            2000     0.169s     51.21
+Total execution time: 1.78 seconds
+
+Grid Size: 800x400
+Name                               Count        Time      GB/s
+Boundary Conditions                 2000     0.014s     20.52
+Interior Update                     2000     2.393s     59.25
+Copy Values                         2000     0.398s    102.83
+Calculate Kinetic Energy            2000     0.295s     52.12
+Total execution time: 3.10 seconds
+

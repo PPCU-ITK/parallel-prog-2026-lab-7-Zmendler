@@ -1,0 +1,3 @@
+At the base 1x scaling, the CPU is faster at this level because the payload is too small to overcome the GPU's OpenMP kernel launch overhead.
+But, as the scaling increases (especially at 8x, 16x) the GPU is much faster than the CPU.
+This is because the GPU's multiprocessors and high-bandwith memory are fully saturated, and bypasses the CPU memory bandwith bottleneck easily, so the GPU is faster and stays at a much slower incline in runtime speed than the CPU which would get much slower and slower. 

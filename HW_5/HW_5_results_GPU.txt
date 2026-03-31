@@ -1,0 +1,32 @@
+GPU:
+Grid Size: 200x100
+Name                               Count        Time      GB/s
+Boundary Conditions                 2000     0.085s      0.84
+Interior Update                     2000     0.029s    308.24
+Copy Values                         2000     0.024s    108.37
+Calculate Kinetic Energy            2000     0.049s     19.47
+Total execution time: 0.50 seconds
+
+Grid Size: 400x200
+Name                               Count        Time      GB/s
+Boundary Conditions                 2000     0.088s      1.61
+Interior Update                     2000     0.034s   1051.44
+Copy Values                         2000     0.026s    397.36
+Calculate Kinetic Energy            2000     0.049s     77.88
+Total execution time: 0.54 seconds
+
+Grid Size: 600x300
+Name                               Count        Time      GB/s
+Boundary Conditions                 2000     0.088s      2.42
+Interior Update                     2000     0.047s   1699.74
+Copy Values                         2000     0.031s    736.23
+Calculate Kinetic Energy            2000     0.049s    175.20
+Total execution time: 0.56 seconds
+
+Grid Size: 800x400
+Name                               Count        Time      GB/s
+Boundary Conditions                 2000     0.089s      3.19
+Interior Update                     2000     0.069s   2040.70
+Copy Values                         2000     0.039s   1057.19
+Calculate Kinetic Energy            2000     0.063s    243.76
+Total execution time: 0.62 seconds
